@@ -1,0 +1,62 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../Header/static/Montserrat-Bold.ttf);
+}
+
+.skill-main{
+    height:600px ;
+    background-color: #302f2c;
+    
+}
+.skill-level{
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: calc(2.4vw + 2px);
+    line-height: 45px;
+    
+}
+.starting-point{
+    color: #FFFFFFA6;
+    font-family: Montserrat;
+}
+.pawn-btn{
+            background-color: #262522;
+            padding: 4% 8% 4% 8%;
+            border-radius: 10px;
+            width: 34vw;
+            border: none;
+            margin-top: 2%;
+}
+.new-to-chess{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+}
+.common{
+    color: #74b54c;
+    margin: 0;
+    font-size: 0.9vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+}
+.continue-btn{
+    background-color:#74b54c;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    box-shadow: 0px 3px 0px 1px #45753c;
+    font-size: calc(1.6vw + 2px);
+    padding: 3%;
+    border-radius: 10px;
+    width: 34vw;
+    border: none;
+    margin-top: 2%;
+}
+.Greentick{
+    visibility: hidden;
+}
+input[type="email"] {
+    color: white;
+  }
